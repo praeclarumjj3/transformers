@@ -451,12 +451,6 @@ MODEL_FOR_UNIVERSAL_SEGMENTATION_MAPPING_NAMES = OrderedDict(
         # Model for Universal Segmentation mapping
         ("detr", "DetrForSegmentation"),
         ("maskformer", "MaskFormerForInstanceSegmentation"),
-    ]
-)
-
-MODEL_FOR_UNIVERSAL_SEGMENTATION_MAPPING_NAMES = OrderedDict(
-    [
-        # Model for Universal Segmentation mapping
         ("oneformer", "OneFormerForUniversalSegmentation"),
     ]
 )
