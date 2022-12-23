@@ -1127,15 +1127,6 @@ AutoModelForInstanceSegmentation = auto_class_update(
 )
 
 
-class AutoModelForUniversalSegmentation(_BaseAutoModelClass):
-    _model_mapping = MODEL_FOR_UNIVERSAL_SEGMENTATION_MAPPING
-
-
-AutoModelForUniversalSegmentation = auto_class_update(
-    AutoModelForUniversalSegmentation, head_doc="universal segmentation"
-)
-
-
 class AutoModelForObjectDetection(_BaseAutoModelClass):
     _model_mapping = MODEL_FOR_OBJECT_DETECTION_MAPPING
 
